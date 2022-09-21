@@ -34,6 +34,10 @@ img {
     'header header header'
     'imageBlock main aside'
     'imageBlock footer footer';
+  grid-template-areas:
+    'header header header'
+    'aside main imageBlock'
+    'aside footer footer';
 }
 
 .image {
