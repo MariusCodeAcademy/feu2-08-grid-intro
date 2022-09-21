@@ -5,14 +5,21 @@
 /* ourTeam */
 
 .ourTeam {
+  text-align: center;
   padding: 3% 20px;
 }
 
 .teamItem {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  text-align: center;
+  /* max-width: 120px; */
 }
 .teamItem img {
   border-radius: 50%;
+  transition: all 0.2s;
+}
+.teamItem img:hover {
+  opacity: 0.75;
 }
 .teamName {
   font-weight: normal;
@@ -24,4 +31,9 @@
   margin-top: 0;
   font-weight: normal;
   font-size: 18px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
