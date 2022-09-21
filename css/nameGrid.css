@@ -1,0 +1,43 @@
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: coral;
+  grid-area: header;
+}
+
+.imageBlock {
+  background-color: tomato;
+  grid-area: imageBlock;
+}
+
+.main {
+  background-color: lightblue;
+  grid-area: main;
+}
+
+.aside {
+  background-color: lime;
+  grid-area: aside;
+}
+
+.footer {
+  background-color: lightgray;
+  grid-area: footer;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-areas:
+    'header header header'
+    'imageBlock main aside'
+    'imageBlock footer footer';
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
