@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
 }
 
 /* ourTeam */
@@ -57,6 +63,7 @@ aside {
   background-color: #333;
   padding: 15px 10px;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .postLine {
