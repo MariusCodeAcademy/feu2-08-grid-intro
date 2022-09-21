@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ourTeam */
 
 .ourTeam {
@@ -36,4 +40,49 @@
 .teamGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* popular posts */
+
+aside {
+  padding: 0 30px;
+  background-color: lightgray;
+  max-width: 500px;
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.pTitle {
+  color: white;
+  background-color: #333;
+  padding: 15px 10px;
+  margin-bottom: 0;
+}
+
+.postLine {
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 50px auto;
+  column-gap: 15px;
+  background-color: #fff;
+}
+
+.postLine:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.postLine img {
+  grid-row: 1 / span 2;
+  align-self: center;
+}
+
+.postLine h4 {
+  margin: 8px 0 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+.postLine p {
+  margin: 8px 0;
+  font-size: 14px;
 }
